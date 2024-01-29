@@ -1,0 +1,1044 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="pn">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="css/font-awesome4.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>نوین دیار - خدمات برنامه نویسی</title>
+</head>
+
+<body>
+<!--header-->
+<header>
+    <!--main nav-->
+    <section class="main-nav py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-8">
+                    <div class="position-relative d-flex align-items-center justify-content-between flex-row-reverse flex-lg-row">
+                        <figure class="m-0">
+                            <img src="img/Logo.png" class="icon-wrapper__img" alt="نوین دیار">
+                        </figure>
+                        <nav class="backdrop w-100">
+                            <ul class="main-nav-list list-norm  d-md-flex align-items-center justify-content-evenly flex-grow-1">
+                                <li class="main-nav-list__item text-white d-flex align-items-center justify-content-between pt-3 d-md-none">
+                                    <span class="main-nav-list__close-btn"><i class="fas fa-times p-3"></i></span>
+                                    <div class="main-nav-login   align-items-center justify-content-end">
+                                        <p class="main-nav-login__phone m-0">
+                                            <span class="main-nav-login__phone">077-<span
+                                                    class="color-light-blue">9101-3040</span></span>
+                                            <img src="img/Calling.png" alt="call icon" class="main-nav-login__icon">
+                                            مشاوره رایگان
+                                        </p>
+                                    </div>
+                                    <a href="#" class="a-norm btn-custom btn-custom--blue btn-custom--hover ">حساب
+                                        کاربری</a>
+                                </li>
+                                <li class="main-nav-list__item">
+                                    <a href="javascript:" class="a-norm main-nav-list__link">
+                                        <figure class="d-block m-0 ms-2 ">
+                                        <span>
+                                            <img src="img/home-white.png"
+                                                 class="main-nav-list__link-icon ms-2 d-md-none">
+                                            صفحه اصلی
+                                        </span>
+                                        </figure>
+                                    </a>
+                                </li>
+                                <li class="main-nav-list__item" onclick="showSub(submenu1)">
+                                    <a href="#" class="a-norm main-nav-list__link">
+                                        <span>
+                                            <img src="img/home-white.png"
+                                                 class="main-nav-list__link-icon ms-2 d-md-none">
+نمونه کار
+                                        </span>
+                                        <i class="fa fa-angle-down px-3"></i>
+                                    </a>
+                                    <ul class="submenu" id="submenu1">
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link a-norm">
+                                                تولید محتوا
+                                            </a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link a-norm">
+                                                بهینه سازی و سئو
+                                            </a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link a-norm">
+                                                شبکه های اجتماعی
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="main-nav-list__item">
+                                    <a href="#" class="a-norm main-nav-list__link">
+                                        <span>
+                                        <img src="img/Category.png" class="main-nav-list__link-icon ms-2 d-md-none">
+                                        خدمات
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="main-nav-list__item">
+                                    <a href="#" class="a-norm main-nav-list__link">
+                                        <span>
+                                        <img src="img/Calling.png" class="main-nav-list__link-icon ms-2 d-md-none">
+                                        تماس با ما
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="main-nav-list__item">
+                                    <a href="#" class="a-norm main-nav-list__link">
+                                        <span>
+                                        <img src="img/Profile-white.png"
+                                             class="main-nav-list__link-icon ms-2 d-md-none">
+                                        درباره ما
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <figure class=" m-0">
+                            <img src="img/Menu-1.png" class="icon-wrapper__img main-nav-list__open-btn d-md-none">
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="main-nav-login d-none d-lg-flex align-items-center justify-content-end">
+                        <p class="main-nav-login__phone m-0">
+                            <span class="main-nav-login__phone">077-<span
+                                    class="color-light-blue">9101-3040</span></span>
+                            <img src="img/Calling.png" alt="call icon" class="main-nav-login__icon">
+                            مشاوره رایگان
+                        </p>
+                        <a href="#" class="a-norm btn-custom btn-custom--blue btn-custom--hover btn-custom--sm me-3">حساب
+                            کاربری</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class=" py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb breadcrumb-custom">
+                            <li class="breadcrumb-icon">
+                                <img src="img/Home.png" alt="home icon" class="ps-3">
+                            </li>
+                            <li class="breadcrumb-item breadcrumb-item-custom active" aria-current="page">صفحه اصلی</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+</header>
+<!--main-->
+<main>
+    <!--hero section-->
+    <section>
+        <div class="container">
+            <div class="hero hero--light-blue p-3 p-md-5 ">
+                <div class="row align-items-center flex-column-reverse flex-md-row">
+                    <div class="col-12 col-md-6">
+                        <div class="hero-right">
+                            <h3 class="hero-right__sec-title my-3">برنامه نویسی سایت یا اپلیکشنت رو به نوین دیار بسپر!</h3>
+                            <h2 class="hero-right-title ">خدمات برنامه نویسی</h2>
+                            <p class="hero-right-para">در این قسمت شما میتونید اطلاعات کلی از خدمات برنامه نویسی نوین
+                                دیار کسب کنید و همچنین با مشاوران ما تماس بگیرید برای ثبت سفارش. در این قسمت به نمونه
+                                کارهای برنامه نویسی نوین دیار هم دسترسی دارید و میتوانید از سطح کیفی کارهای ما آگاه
+                                شوید.</p>
+                            <div class="hero-right-CTA d-inline-flex align-items-center">
+                                <span class="hero-right-CTA__text">مشاوره و ثبت سفارش
+                                <img src="img/arrowLeftEx1.png">
+                                <img src="img/arrowLeftEx2.png">
+                                <img src="img/arrowLeftEx3.png">
+                                </span>
+                                <a href="#"
+                                   class="btn-custom btn-custom--blue btn-custom--hover hero-right-CTA__btn a-norm me-4">درخواست
+                                    مشاوره</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="hero-left">
+                            <video class="hero-left__video" controls>
+                                <source src="img/video.mp4" type="video/mp4">
+                                مرورگر شما این ویدیو را پشتیبانی نمیکند
+                            </video>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-box">
+                    <h3 class="hero-box__title">انواع خدمات برنامه نویسی</h3>
+                    <ul class="hero-box__list list-norm d-flex flex-wrap">
+                        <li class="hero-box__item hero-box__item--light-blue">برنامه نویسی اپلیکیشن موبایل</li>
+                        <li class="hero-box__item hero-box__item--light-blue">برنامه نویسی اپلیکیشن مک</li>
+                        <li class="hero-box__item hero-box__item--light-blue">برنامه نویسی اپلیکیشن ویندوز</li>
+                        <li class="hero-box__item hero-box__item--light-blue">برنامه نویسی ریسپانسیو</li>
+                        <li class="hero-box__item hero-box__item--light-blue">برنامه نویسی سایت</li>
+                        <li class="hero-box__item hero-box__item--light-blue">برنامه نویسی html</li>
+                        <li class="hero-box__item hero-box__item--light-blue">برنامه نویسی اپلیکیشن ویندوز</li>
+                        <li class="hero-box__item hero-box__item--light-blue">برنامه نویسی css</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--advantage section-->
+    <section>
+        <div class="container">
+            <div class="advantage py-3 py-md-5 pt-5">
+                <h2 class="sec-title">
+                    مزیت استفاده ازین خدمات
+                </h2>
+
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 my-3 ">
+                        <article class="advantage-item advantage-item--light-blue flex-grow-1 flex-sm-grow-0">
+                            <figure class="advantage-item__img-wrapper">
+                                <img src="img/3914155-light-blue.png" alt="time icon" class="advantage-item__img">
+                            </figure>
+                            <h4 class="advantage-item__title color-light-blue">تحویل سریع</h4>
+                            <p class="advantage-item__desc">تیم نوین‌دیار با تعداد زیاد کارمندان خود همیشه در تلاش
+                                است در سریع ترین زمان پروژه را تحویل دهد</p>
+                        </article>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 my-3 ">
+                        <article class="advantage-item advantage-item--light-blue ">
+                            <figure class="advantage-item__img-wrapper">
+                                <img src="img/Presentation-light-blue.png" alt="time icon" class="advantage-item__img">
+                            </figure>
+                            <h4 class="advantage-item__title color-light-blue">سبک مدرن</h4>
+                            <p class="advantage-item__desc">ما در نوین دیار بروزترین سبک های طراحی را به شما ارائه
+                                می‌دهیم و همیشه از ترند روز استفاده میکنیم</p>
+                        </article>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 my-3 ">
+                        <article class="advantage-item advantage-item--light-blue ">
+                            <figure class="advantage-item__img-wrapper">
+                                <img src="img/Reserve-light-blue.png" alt="time icon" class="advantage-item__img">
+                            </figure>
+                            <h4 class="advantage-item__title color-light-blue">ایده خلاقانه</h4>
+                            <p class="advantage-item__desc">یک تیم خلاق در نوین دیار اختصاص به ایده دارد و ایده یابی
+                                می‌کند تا همیشه خلاقانه ترین ها را داشته باشیم</p>
+                        </article>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 my-3 ">
+                        <article class="advantage-item advantage-item--light-blue ">
+                            <figure class="advantage-item__img-wrapper">
+                                <img src="img/customer-service-light-blue.png" alt="time icon"
+                                     class="advantage-item__img">
+                            </figure>
+                            <h4 class="advantage-item__title color-light-blue">مشاوره رایگان</h4>
+                            <p class="advantage-item__desc">شما با پر کردن فرم مشاوره که در آخر همین صفحه مشاهده،
+                                میکنید با کارشناسان ما ارتباط میگیرید</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--levels section-->
+    <section>
+        <div class="container">
+            <div class="levels py-3 py-md-5">
+                <h2 class="sec-title">
+                    مراحل انجام خدمات برنامه نویسی
+                </h2>
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <article class="level-item level-item--blue">
+                            <figure class="level-item_img-wrapper">
+                                <img src="./img/clipboard-text.png" alt="" class="level-item_img">
+                            </figure>
+                            <h3 class="level-item_title">
+                                تعریف پروژه و نیاز سنجی
+                            </h3>
+                            <p class="level-item_desc">
+                                در این بخش پروژه وارد بخش اجرایی میشه و نوین دیار در هر مرحله با تاییدیه از مشتری وارد
+                                مرحله بعد خواهد شد
+                            </p>
+                            <time class="level-item_label">مدت زمان : 3 روز</time>
+                        </article>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <article class="level-item level-item--orange">
+                            <figure class="level-item_img-wrapper">
+                                <img src="./img/task-square.png" alt="" class="level-item_img">
+                            </figure>
+                            <h3 class="level-item_title">
+                                بررسی و تهیه فهرست فعالیت‌ها
+                            </h3>
+                            <p class="level-item_desc">
+                                در این بخش پروژه وارد بخش اجرایی میشه و نوین دیار در هر مرحله با تاییدیه از مشتری وارد
+                                مرحله بعد خواهد شد
+                            </p>
+                            <span class="level-item_label">مدت زمان : 3 روز</span>
+                        </article>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <article class="level-item level-item--purple">
+                            <figure class="level-item_img-wrapper">
+                                <img src="./img/clock.png" alt="" class="level-item_img">
+                            </figure>
+                            <h3 class="level-item_title">
+                                برآورد زمان کل پروژه
+                            </h3>
+                            <p class="level-item_desc">
+                                در این بخش پروژه وارد بخش اجرایی میشه و نوین دیار در هر مرحله با تاییدیه از مشتری وارد
+                                مرحله بعد خواهد شد
+                            </p>
+                            <span class="level-item_label">مدت زمان : 3 روز</span>
+                        </article>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <article class="level-item level-item--eden">
+                            <figure class="level-item_img-wrapper">
+                                <img src="./img/coin-1.png" alt="" class="level-item_img">
+                            </figure>
+                            <h3 class="level-item_title">
+                                اعلام نتیجه و تعیین هزینه
+                            </h3>
+                            <p class="level-item_desc">
+                                در این بخش پروژه وارد بخش اجرایی میشه و نوین دیار در هر مرحله با تاییدیه از مشتری وارد
+                                مرحله بعد خواهد شد
+                            </p>
+                            <span class="level-item_label">مدت زمان : 3 روز</span>
+                        </article>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <article class="level-item level-item--yellow">
+                            <figure class="level-item_img-wrapper">
+                                <img src="./img/timer.png" alt="" class="level-item_img">
+                            </figure>
+                            <h3 class="level-item_title">
+                                شروع و کنترل پیشرفت پروژه
+                            </h3>
+                            <p class="level-item_desc">
+                                در این بخش پروژه وارد بخش اجرایی میشه و نوین دیار در هر مرحله با تاییدیه از مشتری وارد
+                                مرحله بعد خواهد شد
+                            </p>
+                            <span class="level-item_label">مدت زمان : 3 روز</span>
+                        </article>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <article class="level-item level-item--red">
+                            <figure class="level-item_img-wrapper">
+                                <img src="./img/timer-1.png" alt="" class="level-item_img">
+                            </figure>
+                            <h3 class="level-item_title">
+                                پایان پروژه، بررسی و آنالیز
+                            </h3>
+                            <p class="level-item_desc">
+                                در این بخش پروژه وارد بخش اجرایی میشه و نوین دیار در هر مرحله با تاییدیه از مشتری وارد
+                                مرحله بعد خواهد شد
+                            </p>
+                            <span class="level-item_label">مدت زمان : 3 روز</span>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Consulting section-->
+    <section>
+        <div class="container">
+            <div class="Consulting Consulting--light-blue p-4 p-md-5 my-5 my-md-5">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-6 mb-5 mb-md-0">
+                        <section class="Consulting-right">
+                            <h2 class="Consulting-right__title mb-4">مشاوره و خرید خدمات</h2>
+                            <p class="Consulting-right__desc"> با پر کردن فرم رو به رو می‌توانید خیلی راحت چالش کسب و
+                                کار، سایت، اپلیکیشن، و... خود را با ما در میان بگذارید تا توسط تیم ما حل شود.</p>
+                            <div class="Consulting-right-connection p-4">
+                                <h3 class="Consulting-right-connection__title">پل های ارتباطی دیگر :</h3>
+                                <div class="d-flex justify-content-between flex-wrap mt-2">
+                                    <span>contact@novindiyar.com</span>
+                                    <span>077-9101-3040</span>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-12 col-md-6 ">
+                        <section class="Consulting-left">
+                            <form action="" method="post" class="form">
+                                <h2 class="form__title color-light-blue mb-3">فرم مشاوره</h2>
+                                <div class="row">
+                                    <div class="col-12 col-md-6">
+                                        <div class="form-input-wrapper">
+                                            <label for="firstName" class="form__label">نام</label>
+                                            <input type="text" name="firstName" id="firstName"
+                                                   placeholder="نام خود را وارد کنید" class="form__input">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="form-input-wrapper">
+                                            <label for="lastName" class="form__label">نام خانوادگی</label>
+                                            <input type="text" name="lastName" id="lastName"
+                                                   placeholder="نام خانوادگی خود را وارد کنید" class="form__input">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="form-input-wrapper">
+                                            <label for="userEmail" class="form__label">ایمیل</label>
+                                            <input type="email" name="userEmail" id="userEmail"
+                                                   placeholder="ایمیل خود را وارد کنید" class="form__input">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="form-input-wrapper">
+                                            <label for="userPhone" class="form__label">شماره تماس</label>
+                                            <input type="text" name="userPhone" id="userPhone"
+                                                   placeholder="شماره تماس خود را وارد کنید" class="form__input">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="form-input-wrapper">
+                                            <label for="userDate" class="form__label">روز مشاوره</label>
+                                            <input type="date" name="userDate" id="userDate" class="form__input"
+                                                   pattern="\d{4}-\d{2}-\d{2}">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="form-input-wrapper">
+                                            <label for="userTime" class="form__label">ساعت</label>
+                                            <input type="time" name="userTime" id="userTime" class="form__input">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-input-wrapper">
+                                            <label for="userDesc" class="form__label">توضیحات</label>
+                                            <input type="text" name="userDesc" id="userDesc"
+                                                   placeholder="توضیحاتی راجب سفارش خود بنویسید" class="form__input">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-input-wrapper">
+                                            <input type="submit" value="ثبت مشاوره"
+                                                   class="btn-custom btn-custom--blue btn-custom--hover btn-custom--block mt-2">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--portfolio section-->
+    <section class="portfolio">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-5 mb-5 mb-md-0">
+                    <section class="portfolio-right">
+                        <h2 class="portfolio-right__title">نمونه کار های <span
+                                class="color-light-blue">برنامه نویسی</span></h2>
+                        <p class="portfolio-right__desc ">در این قسمت شما میتونید اطلاعات کلی از خدمات برنامه نویسی
+                            نوین دیار کسب کنید و همچنین با مشاوران ما تماس بگیرید برای ثبت سفارش. در این قسمت به
+                            نمونه کارهای برنامه نویسی نوین دیار هم دسترسی دارید و میتوانید از سطح کیفی کارهای ما
+                            آگاه شوید.</p>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="a-norm btn-custom btn-custom--blue btn-custom--hover">مشاهده
+                                همه</a>
+                            <div class="slider-btns">
+                                <img src="img/Arrow - Down.png" class="btn-next">
+                                <img src="img/Arrow - Down copy-light-blue.png" class="btn-prev">
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-12 col-md-7">
+                    <section class="portfolio-left">
+                        <div class="slider-wrapper">
+                            <div class="swiper-slider1 swiper-slider1--light-blue  me-4 mt-3">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <figure class="swiper-slider1__img-wrapper m-0">
+                                                <img src="./img/slider-img.png" class="swiper-slider1__img">
+                                                <div class="swiper-slider1-text-wrapper">
+                                                    <figcaption class="swiper-slider1-text">
+                                                        <h4 class="swiper-slider1-text__title">طراحی رابط کاربری
+                                                            سایت آزمون ساز</h4>
+                                                        <p class="swiper-slider1-text__desc color-light-blue">Ui/Ux
+                                                            Design of Azmon
+                                                            Saz
+                                                            Site</p>
+                                                    </figcaption>
+                                                </div>
+                                            </figure>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <figure class="swiper-slider1__img-wrapper m-0">
+                                                <img src="./img/slider-img.png" class="swiper-slider1__img">
+                                                <div class="swiper-slider1-text-wrapper">
+                                                    <figcaption class="swiper-slider1-text">
+                                                        <h4 class="swiper-slider1-text__title">طراحی رابط کاربری
+                                                            سایت آزمون ساز</h4>
+                                                        <p class="swiper-slider1-text__desc color-light-blue">Ui/Ux
+                                                            Design of Azmon
+                                                            Saz
+                                                            Site</p>
+                                                    </figcaption>
+                                                </div>
+                                            </figure>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <figure class="swiper-slider1__img-wrapper m-0">
+                                                <img src="./img/slider-img.png" class="swiper-slider1__img">
+                                                <div class="swiper-slider1-text-wrapper">
+                                                    <figcaption class="swiper-slider1-text">
+                                                        <h4 class="swiper-slider1-text__title">طراحی رابط کاربری
+                                                            سایت آزمون ساز</h4>
+                                                        <p class="swiper-slider1-text__desc color-light-blue">Ui/Ux
+                                                            Design of Azmon
+                                                            Saz
+                                                            Site</p>
+                                                    </figcaption>
+                                                </div>
+                                            </figure>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <figure class="swiper-slider1__img-wrapper m-0">
+                                                <img src="./img/slider-img.png" class="swiper-slider1__img">
+                                                <div class="swiper-slider1-text-wrapper">
+                                                    <figcaption class="swiper-slider1-text">
+                                                        <h4 class="swiper-slider1-text__title">طراحی رابط کاربری
+                                                            سایت آزمون ساز</h4>
+                                                        <p class="swiper-slider1-text__desc color-light-blue">Ui/Ux
+                                                            Design of Azmon
+                                                            Saz
+                                                            Site</p>
+                                                    </figcaption>
+                                                </div>
+                                            </figure>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <figure class="swiper-slider1__img-wrapper m-0">
+                                                <img src="./img/slider-img.png" class="swiper-slider1__img">
+                                                <div class="swiper-slider1-text-wrapper">
+                                                    <figcaption class="swiper-slider1-text">
+                                                        <h4 class="swiper-slider1-text__title">طراحی رابط کاربری
+                                                            سایت آزمون ساز</h4>
+                                                        <p class="swiper-slider1-text__desc color-light-blue">Ui/Ux
+                                                            Design of Azmon
+                                                            Saz
+                                                            Site</p>
+                                                    </figcaption>
+                                                </div>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--customer section-->
+    <section>
+        <div class="container">
+            <div class="row py-3 py-md-5 pt-5">
+                <h2 class="sec-title">
+                    مشتریانی که این خدمات رو از ما گرفتند
+                </h2>
+                <div class="col-12">
+                    <section class="customer">
+                        <div class="slider-wrapper">
+                            <div class="swiper-slider2 swiper-slider2--light-blue">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="swiper-slide-content d-flex align-items-center flex-column-reverse flex-md-row">
+                                                <div class="swiper-slide2-right">
+                                                    <header class="swiper-slide-right-header d-flex align-items-center justify-content-between">
+                                                        <div class="swiper-slide-right-header-text">
+                                                            <h3 class="swiper-slide-right-header-text__title">
+                                                                مهندس
+                                                                غفور نوریان</h3>
+                                                            <span class="swiper-slide-right-header-text__tagline color-light-blue">مدیرعامل شرکت ایمن ساحل آسا</span>
+                                                        </div>
+                                                        <div class="d-flex flex-row-reverse">
+                                                            <img src="img/Star-orange.png" alt="Star-orange"
+                                                                 class="me-3">
+                                                            <strong class="swiper-slide-right-header__star-text">4.3</strong>
+                                                        </div>
+                                                    </header>
+                                                    <p class="swiper-slide-right-para">
+                                                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                                                        چاپ و
+                                                        با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه
+                                                        روزنامه
+                                                        و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                                                        تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود
+                                                        ابزارهای
+                                                        کاربردی می باشد.
+                                                    </p>
+                                                </div>
+                                                <div class="swiper-slide2-left">
+                                                    <figure class="swiper-slide-left__img-wrapper">
+                                                        <img src="img/man-with-papers.png" alt="man-with-papers"
+                                                             class="swiper-slide-left__img">
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="swiper-slide-content d-flex align-items-center flex-column-reverse flex-md-row">
+                                                <div class="swiper-slide2-right">
+                                                    <header class="swiper-slide-right-header d-flex align-items-center justify-content-between">
+                                                        <div class="swiper-slide-right-header-text">
+                                                            <h3 class="swiper-slide-right-header-text__title">
+                                                                مهندس
+                                                                غفور نوریان</h3>
+                                                            <span class="swiper-slide-right-header-text__tagline color-ef7205">مدیرعامل شرکت ایمن ساحل آسا</span>
+                                                        </div>
+                                                        <div class="d-flex flex-row-reverse">
+                                                            <img src="img/Star-orange.png" alt="Star-orange"
+                                                                 class="me-3">
+                                                            <strong class="swiper-slide-right-header__star-text">4.3</strong>
+                                                        </div>
+                                                    </header>
+                                                    <p class="swiper-slide-right-para">
+                                                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                                                        چاپ و
+                                                        با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه
+                                                        روزنامه
+                                                        و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                                                        تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود
+                                                        ابزارهای
+                                                        کاربردی می باشد.
+                                                    </p>
+                                                </div>
+                                                <div class="swiper-slide2-left">
+                                                    <figure class="swiper-slide-left__img-wrapper">
+                                                        <img src="img/man-with-papers.png" alt="man-with-papers"
+                                                             class="swiper-slide-left__img">
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- If we need navigation buttons -->
+                                    <div class="swiper-button-prev"></div>
+                                    <div class="swiper-button-next"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <!--customer-list-->
+                <div class="col-12 mt-5">
+                    <section class="customer-list">
+                        <div class="slider-wrapper">
+                            <div class="swiper-slider3">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <figure class="swiper-slider3__img-wrapper">
+                                                <img src="img/azmoonsaaz-logo.png" class="swiper-slider3__img">
+                                            </figure>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <figure class="swiper-slider3__img-wrapper">
+                                                <img src="img/invskills-logo.png" class="swiper-slider3__img">
+                                            </figure>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <figure class="swiper-slider3__img-wrapper">
+                                                <img src="img/vistor-logo.png" class="swiper-slider3__img">
+                                            </figure>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <figure class="swiper-slider3__img-wrapper">
+                                                <img src="img/SnappDoctor-logo.png" class="swiper-slider3__img">
+                                            </figure>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <figure class="swiper-slider3__img-wrapper">
+                                                <img src="img/invskills-logo.png" class="swiper-slider3__img">
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--articles section-->
+    <section class="article">
+        <div class="container">
+            <div class="row py-3 py-md-5 pt-5">
+                <div class="col-12">
+                    <div class="d-flex align-items-center justify-content-between mb-0 mt-md-5">
+                        <h2 class="sec-title ">
+                            مقالات برنامه نویسی
+                        </h2>
+                        <a href="#" class="sec-title-wrapper__more a-norm color-light-blue">مشاهده همه</a>
+                    </div>
+                </div>
+                <!--article-slider-->
+                <div class="col-12 mt-5 mt-md-3">
+                    <section class="customer-list">
+                        <div class="slider-wrapper">
+                            <div class="swiper-slider4 swiper-slider4--light-blue" id="#swiper-slider4">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <a href="#" class="d-block a-norm swiper-slide-content ">
+                                                <figure class="swiper-slide-content__img-wrapper d-flex justify-content-center align-items-center flex-column">
+                                                    <img src="img/article.png" class="swiper-slide-content__img" alt="">
+                                                    <figcaption class="swiper-slide-content-text">
+                                                        <span class="swiper-slide-content-text__label">راه اندازی کسب و کار</span>
+                                                        <h3 class="swiper-slide-content-text__title">سایز بندی پست ها
+                                                            برای اینستاگرام</h3>
+                                                        <div class="swiper-slide-content-text__specs d-flex justify-content-between align-items-center">
+                                                            <div class="swiper-slide-content-text__specs-right">
+                                                                <img src="img/Heart.png" alt="like icon">
+                                                                <span>32</span>
+                                                            </div>
+                                                            <div class="swiper-slide-content-text__specs-left">
+                                                                <img src="img/Show.png" alt="review icon">
+                                                                <span>234</span>
+                                                            </div>
+                                                        </div>
+                                                    </figcaption>
+                                                </figure>
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <a href="#" class="d-block a-norm swiper-slide-content ">
+                                                <figure class="swiper-slide-content__img-wrapper d-flex justify-content-center align-items-center flex-column">
+                                                    <img src="img/article.png" class="swiper-slide-content__img" alt="">
+                                                    <figcaption class="swiper-slide-content-text">
+                                                        <span class="swiper-slide-content-text__label">راه اندازی کسب و کار</span>
+                                                        <h3 class="swiper-slide-content-text__title">سایز بندی پست ها
+                                                            برای اینستاگرام</h3>
+                                                        <div class="swiper-slide-content-text__specs d-flex justify-content-between align-items-center">
+                                                            <div class="swiper-slide-content-text__specs-right">
+                                                                <img src="img/Heart.png" alt="like icon">
+                                                                <span>32</span>
+                                                            </div>
+                                                            <div class="swiper-slide-content-text__specs-left">
+                                                                <img src="img/Show.png" alt="review icon">
+                                                                <span>234</span>
+                                                            </div>
+                                                        </div>
+                                                    </figcaption>
+                                                </figure>
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <a href="#" class="d-block a-norm swiper-slide-content ">
+                                                <figure class="swiper-slide-content__img-wrapper d-flex justify-content-center align-items-center flex-column">
+                                                    <img src="img/article.png" class="swiper-slide-content__img" alt="">
+                                                    <figcaption class="swiper-slide-content-text">
+                                                        <span class="swiper-slide-content-text__label">راه اندازی کسب و کار</span>
+                                                        <h3 class="swiper-slide-content-text__title">سایز بندی پست ها
+                                                            برای اینستاگرام</h3>
+                                                        <div class="swiper-slide-content-text__specs d-flex justify-content-between align-items-center">
+                                                            <div class="swiper-slide-content-text__specs-right">
+                                                                <img src="img/Heart.png" alt="like icon">
+                                                                <span>32</span>
+                                                            </div>
+                                                            <div class="swiper-slide-content-text__specs-left">
+                                                                <img src="img/Show.png" alt="review icon">
+                                                                <span>234</span>
+                                                            </div>
+                                                        </div>
+                                                    </figcaption>
+                                                </figure>
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <a href="#" class="d-block a-norm swiper-slide-content ">
+                                                <figure class="swiper-slide-content__img-wrapper d-flex justify-content-center align-items-center flex-column">
+                                                    <img src="img/article.png" class="swiper-slide-content__img" alt="">
+                                                    <figcaption class="swiper-slide-content-text">
+                                                        <span class="swiper-slide-content-text__label">راه اندازی کسب و کار</span>
+                                                        <h3 class="swiper-slide-content-text__title">سایز بندی پست ها
+                                                            برای اینستاگرام</h3>
+                                                        <div class="swiper-slide-content-text__specs d-flex justify-content-between align-items-center">
+                                                            <div class="swiper-slide-content-text__specs-right">
+                                                                <img src="img/Heart.png" alt="like icon">
+                                                                <span>32</span>
+                                                            </div>
+                                                            <div class="swiper-slide-content-text__specs-left">
+                                                                <img src="img/Show.png" alt="review icon">
+                                                                <span>234</span>
+                                                            </div>
+                                                        </div>
+                                                    </figcaption>
+                                                </figure>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--FAQ section-->
+    <section class="faq faq--light-blue">
+        <div class="container">
+            <div class="row py-3 py-md-5 pt-5 align-items-center">
+                <div class="col-12 col-md-5">
+                    <figure class="faq-right__img-wrapper">
+                        <img src="img/thinking-light-blue.png" alt="سوالات متداول" class="img-fluid">
+                    </figure>
+                </div>
+                <div class="col-12 col-md-7">
+                    <h2 class="sec-title ">
+                        <span class="color-light-blue">سوالات متداول</span> خدمات بهنیه سازی و سئو
+                    </h2>
+                    <p class="faq-left__tagline">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با </p>
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                        aria-controls="flush-collapseOne">
+                                    چطور میتونیم به نوین دیار اعتماد کنیم؟
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                 aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body"> مداد رنگی ها مشغول بودند به جز مداد سفید، هیچکس به او کار
+                                    نمیداد، همه میگفتند : تو به هیچ دردی نمیخوری، یک شب که مداد رنگی ها تو سیاهی شب گم
+                                    شده بودند، مداد سفید تا صبح ماه کشید مهتاب کشید و انقدر ستاره کشید که کوچک و کوچکتر
+                                    شد صبح توی جعبه مداد رنگی جای خالی او با هیچ رنگی پر نشد، به یاد هم باشیم شاید فردا
+                                    ما هم در کنار هم نباشیم…
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                        aria-controls="flush-collapseTwo">
+                                    پرداخت هزینه به چه صورت هست؟
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                 aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body"> مداد رنگی ها مشغول بودند به جز مداد سفید، هیچکس به او کار
+                                    نمیداد، همه میگفتند : تو به هیچ دردی نمیخوری، یک شب که مداد رنگی ها تو سیاهی شب گم
+                                    شده بودند، مداد سفید تا صبح ماه کشید مهتاب کشید و انقدر ستاره کشید که کوچک و کوچکتر
+                                    شد صبح توی جعبه مداد رنگی جای خالی او با هیچ رنگی پر نشد، به یاد هم باشیم شاید فردا
+                                    ما هم در کنار هم نباشیم…
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                        aria-controls="flush-collapseThree">
+                                    تا چه تعداد میتوان تغییرات اعمال کرد؟
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                 aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body"> مداد رنگی ها مشغول بودند به جز مداد سفید، هیچکس به او کار
+                                    نمیداد، همه میگفتند : تو به هیچ دردی نمیخوری، یک شب که مداد رنگی ها تو سیاهی شب گم
+                                    شده بودند، مداد سفید تا صبح ماه کشید مهتاب کشید و انقدر ستاره کشید که کوچک و کوچکتر
+                                    شد صبح توی جعبه مداد رنگی جای خالی او با هیچ رنگی پر نشد، به یاد هم باشیم شاید فردا
+                                    ما هم در کنار هم نباشیم…
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<!--footer-->
+<footer class="footer ">
+    <div class="container">
+        <!--footer top-->
+        <div class="row">
+            <div class="col-12 col-md-6 mb-3">
+                <h3 class="footer-top__title mb-2 mb-md-3 d-flex">
+                    <figure>
+                        <img src="img/logo-icon-white.png" alt="نوین دیار" class="footer-top__img">
+                    </figure>
+                    <figure class="d-flex flex-column me-3">
+                        <img src="img/logo-white.png" alt="نوین دیار" class="footer-top__img">
+                        <img src="img/logo tagline.png" alt="نوین دیار" class="footer-top__img">
+                    </figure>
+                </h3>
+                <p class="footer-top__para">نوین دیار، یک گروه تخصصی فعال در حوزه دیجیتال است که با انجام خدماتی نظیر
+                    طراحی سایت، طراحی گرافیک و سئو در کنار آن راهکارهای خلاقه‌ای برای طراحی کمپین تبلیغاتی و برندینگ
+                    دیجیتال ارائه می‌دهد.</p>
+            </div>
+            <div class="col-6 col-md-2 mb-3">
+                <h3 class="footer-top__title">خدمات ما</h3>
+                <ul class="footer-top__list list-norm">
+                    <li class="footer-top__item">
+                        <a href="#" class="footer-top__link a-norm">طراحی سایت</a>
+                    </li>
+                    <li class="footer-top__item">
+                        <a href="#" class="footer-top__link a-norm">سئو و بهینه سازی سایت</a>
+                    </li>
+                    <li class="footer-top__item">
+                        <a href="#" class="footer-top__link a-norm">طراحی گرافیک</a>
+                    </li>
+                    <li class="footer-top__item">
+                        <a href="#" class="footer-top__link a-norm">تبلیغات آنلاین</a>
+                    </li>
+                    <li class="footer-top__item">
+                        <a href="#" class="footer-top__link a-norm">تولید محتوا</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6 col-md-2 mb-3">
+                <h3 class="footer-top__title">آشنایی با ما</h3>
+                <ul class="footer-top__list list-norm">
+                    <li class="footer-top__item">
+                        <a href="#" class="footer-top__link a-norm">درباره ما</a>
+                    </li>
+                    <li class="footer-top__item">
+                        <a href="#" class="footer-top__link a-norm">تماس با ما</a>
+                    </li>
+                    <li class="footer-top__item">
+                        <a href="#" class="footer-top__link a-norm">نمونه کارها</a>
+                    </li>
+                    <li class="footer-top__item">
+                        <a href="#" class="footer-top__link a-norm">خدمات ما</a>
+                    </li>
+                    <li class="footer-top__item">
+                        <a href="#" class="footer-top__link a-norm">مشتریان نوین دیار</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-2 mb-3">
+                <h3 class="footer-top__title">نماد اعتماد...</h3>
+                <ul class="namad-list list-norm d-flex align-items-center text-center text-md-end flex-wrap ">
+                    <li class="namad-list__item">
+                        <a href="#" class="namad-list__link">
+                            <img src="img/3a24ea39.png" class="namad-list__img" alt="نماد اعتماد الکترونیک">
+                        </a>
+                    </li>
+                    <li class="namad-list__item">
+                        <a href="#" class="namad-list__link">
+                            <img src="img/6e2d6b38.png" class="namad-list__img" alt="نماد اعتماد الکترونیک">
+                        </a>
+                    </li>
+                    <li class="namad-list__item">
+                        <a href="#" class="namad-list__link">
+                            <img src="img/mellat.png" class="namad-list__img" alt="لانک ملت">
+                        </a>
+                    </li>
+                    <li class="namad-list__item">
+                        <a href="#" class="namad-list__link">
+                            <img src="img/nashr-digital-logo.png" class="namad-list__img" alt="نشر دیجیتال">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--footer bottom-->
+        <div class="row my-3">
+            <div class="col-6 col-md-2 text-center">
+                <span class="footer-bottom__contact-info">
+                    <img src="img/Location.png" alt="شهر زیبای بوشهر">
+                    شهر زیبای بوشهر
+                </span>
+            </div>
+            <div class="col-6 col-md-2 ">
+                <span class="footer-bottom__contact-info">
+                    <img src="img/Phone.png" alt="077-9101-3040">
+                        077-9101-3040
+                </span>
+            </div>
+            <div class="col-6 col-md-3 text-center">
+                <span class="footer-bottom__contact-info">
+                    <img src="img/Message-5.png" alt="contact@novindiyar.com">
+                    contact@novindiyar.com
+                </span>
+            </div>
+            <div class="col-6 col-md-2 text-center">
+                <span class="footer-bottom__contact-info">
+                        <img src="img/whatsapp-blue.png" alt="+98935-250-1662">
+                             +98935-250-1662
+                </span>
+            </div>
+            <div class="col-12 col-md-3 mt-4 mt-md-0">
+                <ul class="list-norm d-flex justify-content-evenly">
+                    <li class="footer-bottom-list__item">
+                        <a href="#" class="footer-bottom-list__link"><img src="img/youtube.png"
+                                                                          class="footer-bottom-list__img" alt="youtube"></a>
+                    </li>
+                    <li class="footer-bottom-list__item">
+                        <a href="#" class="footer-bottom-list__link"><img src="img/twitter.png"
+                                                                          class="footer-bottom-list__img" alt="twitter"></a>
+                    </li>
+                    <li class="footer-bottom-list__item">
+                        <a href="#" class="footer-bottom-list__link"><img src="img/telegram.png"
+                                                                          class="footer-bottom-list__img"
+                                                                          alt="telegram"></a>
+                    </li>
+                    <li class="footer-bottom-list__item">
+                        <a href="#" class="footer-bottom-list__link"><img src="img/instagram.png"
+                                                                          class="footer-bottom-list__img"
+                                                                          alt="instagram"></a>
+                    </li>
+                    <li class="footer-bottom-list__item">
+                        <a href="#" class="footer-bottom-list__link"><img src="img/whatsapp.png"
+                                                                          class="footer-bottom-list__img"
+                                                                          alt="whatsapp"></a>
+                    </li>
+                    <li class="footer-bottom-list__item">
+                        <a href="#" class="footer-bottom-list__link"><img src="img/aparat.png"
+                                                                          class="footer-bottom-list__img"
+                                                                          alt="aparat.png"></a>
+                    </li>
+                    <li class="footer-bottom-list__item">
+                        <a href="#" class="footer-bottom-list__link"><img src="img/linkedin.png"
+                                                                          class="footer-bottom-list__img"
+                                                                          alt="linkedin"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--copy right-->
+        <div class="row my-4">
+            <div class="col-12">
+                <p class="cr text-center">تمامی حقوق برای نوین دیار محفوظ است.</p>
+            </div>
+        </div>
+        <!--footer btn-->
+        <a href="#" class="footer-btn">
+            <img src="img/Arrow - Up 2.png" alt="go to top" class="img-fluid">
+        </a>
+    </div>
+</footer>
+<script src="./js/jquery-3.6.0.min.js"></script>
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js/swiper-bundle.min.js"></script>
+<script src="./js/persianumber.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+
+</html>
